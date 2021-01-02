@@ -53,3 +53,31 @@ then you can go to vibe folder and execute a test
 python demo_alter.py --vid_file sample_video.mp4 --output_folder output/ --display 
 ```
 Note that all the configuration was made for GPU powered PCs
+
+
+# FBX Conversion
+
+`Go to  this site and create a free account`https://smpl.is.tue.mpg.de/
+
+Download the Unity-compatible FBX file through the 
+https://psfiles.is.tuebingen.mpg.de/downloads/smpl/SMPL_unity_v-1-0-0-zip 
+## (but it wont work going stright to the link, you must go to the site donwload page. its almost the last link
+
+
+· Unzip the contents and locate them data/SMPL_unity_v.1.0.0. (the full folder)
+
+· Install Blender python API
+```bash
+pip install bpy 
+```
+
+`Donwload version 2.82a`
+https://download.blender.org/release/Blender2.82/blender-2.82a-windows64.zip
+
+
+copy the 2.82 folder to the same folder that you have the python instalation used
+
+· Run the command below to convert VIBE output to FBX:
+```bash
+python lib/utils/fbx_output.py --input output/sample_video/vibe_output.pkl --output output/sample_video/fbx_output.fbx --fps_source 30 --fps_target 30 --gender female 
+```
