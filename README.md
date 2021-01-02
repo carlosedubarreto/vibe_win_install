@@ -61,7 +61,7 @@ Note that all the configuration was made for GPU powered PCs
 
 Download the Unity-compatible FBX file through the 
 https://psfiles.is.tuebingen.mpg.de/downloads/smpl/SMPL_unity_v-1-0-0-zip 
-## (but it wont work going streight to the link, you must go to the site donwload page. its almost the last link on the page https://smpl.is.tue.mpg.de/downloads)
+## (but it wont work going straight to the link, you must go to the site donwload page. its almost the last link on the page https://smpl.is.tue.mpg.de/downloads)
 
 
 · Unzip the contents and locate them data/SMPL_unity_v.1.0.0. (the full folder)
