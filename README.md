@@ -32,6 +32,9 @@ Unpack the VIBE github pack to a folder
 https://github.com/mkocabas/VIBE/archive/master.zip
 
 unpack the contents of this github to the same folder
+
+https://github.com/carlosedubarreto/vibe_win_install/archive/main.zip
+
 then run:
 ```bash
 install_conda.bat
