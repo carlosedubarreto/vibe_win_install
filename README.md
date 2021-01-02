@@ -3,24 +3,20 @@
 Here are some scripts made to make the instalation of Vibe on windows easier.
 
 The Vibe site is:
-
 https://github.com/mkocabas/VIBE
 
-To install VIBE on windows using this scrip, you must:
+To install VIBE on windows using this script, you must:
 
 `install miniconda:`
-
 https://docs.conda.io/en/latest/miniconda.html
 
 
 `install VC2017 redist`
-
 https://support.microsoft.com/pt-br/help/2977003/the-latest-supported-visual-c-downloads
 
 Download and add to system path (only the bin directory)
 
 `FFMPEG`
-
 https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
 
 
