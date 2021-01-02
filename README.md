@@ -2,8 +2,6 @@
 
 Here are some scripts made to make the instalation of Vibe on windows easier.
 
-The Vibe site is:
-https://github.com/mkocabas/VIBE
 
 To install VIBE on windows using this script, you must:
 
@@ -33,18 +31,21 @@ https://github.com/carlosedubarreto/vibe_win_install/archive/main.zip
 
 then run:
 ```bash
+conda create -n venv_vibe python=3.7
+conda activate venv_vibe
+conda install cudatoolkit=10.1 cudnn=7.6.0
+
 install_conda.bat
-```
-and
-```bash
 prepare_data.bat
 ```
+
+
 To use vibe, you must enter the vibe virtual enviroment created:
 ```bash
 conda activate venv_vibe
 ```
 
-then you cen got to vibes folder and execute a test
+then you can go to vibe folder and execute a test
 ```bash
 python demo_alter.py --vid_file sample_video.mp4 --output_folder output/ --display 
 ```
