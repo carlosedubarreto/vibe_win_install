@@ -1,4 +1,7 @@
 # vibe_win_install
+`Official Project link:` https://github.com/mkocabas/VIBE
+
+
 
 Here are some scripts made to make the instalation of Vibe on windows easier.
 
