@@ -41,6 +41,8 @@ conda create -n venv_vibe python=3.7
 conda activate venv_vibe
 conda install cudatoolkit=10.1 cudnn=7.6.0
 
+conda install -c anaconda git
+
 install_conda.bat
 prepare_data.bat
 ```
