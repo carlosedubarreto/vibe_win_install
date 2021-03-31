@@ -76,6 +76,13 @@ https://psfiles.is.tuebingen.mpg.de/downloads/smpl/SMPL_unity_v-1-0-0-zip
 pip install bpy 
 ```
 
+or if you havbe problems, try installing with conda
+
+```bash
+conda install -c kitsune.one python-blender 
+```
+
+
 `Donwload version 2.82a`
 https://download.blender.org/release/Blender2.82/blender-2.82a-windows64.zip
 
