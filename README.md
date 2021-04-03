@@ -60,6 +60,17 @@ python demo_alter.py --vid_file sample_video.mp4 --output_folder output/ --displ
 ```
 Note that all the configuration was made for GPU powered PCs
 
+# Blender addon to import data
+
+There is a Blender addon that you can download for free to import the data in a easier way.
+Go to https://gum.co/mocap_import and download it.
+
+To use to import VIBE pkl data, it is needed to install a python package first.
+To install it on windows, replace the following code with the directory where your blender is installed (or unzipped)
+
+```bash
+D:\Blender\blender-2.92.0-windows64\2.92\python\bin\python.exe D:\Blender\blender-2.92.0-windows64\2.92\python\lib\site-packages\pip install joblib'
+```
 
 # FBX Conversion
 
