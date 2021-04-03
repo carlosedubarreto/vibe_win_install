@@ -1,6 +1,7 @@
 # vibe_win_install
 Video Tutorial
-https://youtube.com/watch?v=3qhs5IRJ1LI
+
+[![Video Tutorial to install VIBE](https://img.youtube.com/vi/3qhs5IRJ1LI/0.jpg)](https://www.youtube.com/watch?v=3qhs5IRJ1LI) 
 
 
 `Official Project link:` https://github.com/mkocabas/VIBE
