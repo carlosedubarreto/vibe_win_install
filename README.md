@@ -36,7 +36,7 @@ unpack the contents of this github to the same folder
 
 https://github.com/carlosedubarreto/vibe_win_install/archive/main.zip
 
-then run:
+then run in **ADMIN** mode:
 ```bash
 conda create -n venv_vibe python=3.7
 conda activate venv_vibe
